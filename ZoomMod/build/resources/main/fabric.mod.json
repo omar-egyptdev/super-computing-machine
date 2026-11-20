@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zoom",
+  "version": "1.0.0",
+  "name": "Zoom",
+  "description": "Hold C to zoom with a smooth animated FOV transition.",
+  "authors": ["Omar"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.zoom.ZoomClient"]
+  },
+  "mixins": ["zoom.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.16.5 <1.17",
+    "java": ">=8",
+    "fabric": "*"
+}
+}
